@@ -1,10 +1,14 @@
 import React from 'react';
-import Products from './components/Products';
+import {
+  Header,
+  Products,
+} from './components';
 
 
 const App = () => {
   return (
     <div>
+      <Header />
       <Products />
     </div>
   );
